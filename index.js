@@ -47,6 +47,8 @@ async function run() {
 			res.send(result);
 		});
 
+
+		// tomaa
 		// latestProducts
 		app.get("/latest_products", async (req, res) => {
 			// Calculate the date 30 days ago from the current date
